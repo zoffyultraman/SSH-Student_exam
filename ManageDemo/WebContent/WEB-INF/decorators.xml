@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/view/decorators">       
+     <excludes>
+     <!-- 排除的是相对于url目录层次的，而非文件所在的目录！ -->
+	     <pattern>/home</pattern> 
+	     <pattern>/miss</pattern>
+     </excludes>
+     
+     <decorator name="decorator" page="decorator.jsp">  
+       <pattern>/error/*</pattern>  
+       <pattern>/fileUpload/*</pattern>  
+       
+       <pattern>/role/*</pattern>  
+       <pattern>/student/*</pattern>  
+       <pattern>/subject/*</pattern>  
+       <pattern>/teacher/*</pattern>  
+       <pattern>/ti/*</pattern>
+<!--        <pattern>/grade/gradeAdd/*</pattern>
+       <pattern>/grade/gradeList/*</pattern>    
+       <pattern>/grade/gradeEdit/*</pattern>   -->
+       <pattern>/grade/*</pattern>
+       <pattern>/stuSubject/*</pattern>
+       <pattern>/stuGrade/*</pattern>
+       <pattern>/exam/*</pattern>
+       <pattern>/CharP/*</pattern>
+       <pattern>/char/*</pattern>
+       
+     </decorator>  
+</decorators>

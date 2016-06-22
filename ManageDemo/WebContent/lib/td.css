@@ -1,0 +1,51 @@
+.tdfont{
+	color:white;
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    border:0;
+    
+}
+
+.tdfont2{
+	color:white;
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    border:0;
+}
+.tdfont3{
+	color:white;
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    border:0;
+}
+.tdfont4{
+	color:white;
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    border:0;
+}
+/* #Ti1{
+	width:20px;
+	height:20px;
+	background-color:#5BC0DE;
+	border-radius: 20px;
+} */
+/* div[id^="Ti"]{
+    width:20px;
+	height:20px;
+	background-color:#5BC0DE;
+	border-radius: 20px;
+} */
+ 
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+	border:2px;
+	
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+/*     border:2px; */
+
+} 

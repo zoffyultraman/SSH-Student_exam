@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/view/role/roleEdit.jsp=UTF-8
+encoding//WebContent/WEB-INF/view/teacher/teacherEdit.jsp=UTF-8
+encoding//src/i18n/message_en_US.properties=UTF-8
+encoding//src/i18n/message_zh_CN.properties=UTF-8

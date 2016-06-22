@@ -1,0 +1,15 @@
+CREATE TABLE `users` (
+  `USER_ID` int(20) NOT NULL AUTO_INCREMENT,
+  `USER_NAME` varchar(50) NOT NULL,
+  `PASSWORD` varchar(20) NOT NULL,
+  `REMARK` varchar(100) DEFAULT NULL,
+  `UPDUSER` varchar(30) DEFAULT NULL,
+  `UPDDATE` timestamp NULL DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `RoleId` varchar(45) NOT NULL,
+  `sex` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`USER_ID`),
+  UNIQUE KEY `USER_NAME_UNIQUE` (`USER_NAME`),
+  UNIQUE KEY `email_UNIQUE` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
